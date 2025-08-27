@@ -3,8 +3,12 @@
 > **DMAOT + HQ‑SAM with IoU‑gated refinement** for robust multi‑object tracking and high‑quality masks. This repo contains the exact runners we used for our **2nd‑place** VOTS 2024 entry, plus ablations (backbones, thresholds, parallelism, visualization, depth, and cycle priors).
 
 <p align="center">
-  <img src="hqsam_gate_diagram.pdf" alt="HQ‑SAM‑Gate method diagram" width="800">
+  <img src="hqsam_gate_diagram.png" alt="HQ-SAM-Gate method diagram" width="800">
+  <br>
+  <a href="hqsam_gate_diagram.pdf">Download PDF</a> ·
+  <a href="docs/diagram.html">View PDF inline (GitHub Pages)</a>
 </p>
+
 
 ---
 
