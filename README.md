@@ -99,10 +99,10 @@ Q = (1/N) * Σ_s [ (1/(T_s*N_s)) * Σ_t Σ_i IoU(o_{s,t,i}, g_{s,t,i}) ]
 | Method | Q (dev) | Q (test) | Notes |
 |---|---:|---:|---|
 | No mask‑refinement | 0.6817 | 0.6400 | DMAOT baseline |
-| SAM‑B | 0.6971 | – | Light SAM refinement |
+| SAM‑B | 0.6971 | 0.6388 | Light SAM refinement |
 | SAM‑L | 0.7298 | 0.6187 | Larger model, no gating |
 | + Rejection Sampling | 0.7326 | 0.6458 | **τ‑gated** selection |
-| HQ‑SAM‑L | – | – |  |
+| HQ‑SAM‑L | 0.7455 | 0.6513 |  |
 | + Rejection Sampling | 0.7298 | 0.6513 | High‑quality token |
 | + Cycle | 0.7046 | 0.6439 | Prior fed back to DMAOT |
 | **HQ‑SAM‑H + Rejection** | **0.7335** | **0.6530** | **Best: +1.3% over baseline (test)** |
