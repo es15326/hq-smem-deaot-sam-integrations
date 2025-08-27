@@ -186,9 +186,13 @@ sbatch -J hqsam_gate_vots -p a100_80gb --gres=gpu:4 --cpus-per-task=16 --mem=64G
 ---
 
 ## 🖼️ Qualitative Results (VOTS)
-> Selected frames illustrating DMAOT → HQ‑SAM → IoU‑gated refinement; see captions in the PDF for details.
+> Selected frames illustrating DMAOT → HQ‑SAM → IoU‑gated refinement; see original captions in the PDF for details.
 
-<p align="center"><img src="qualitative_page_01.png" alt="qualitative 1" width="60%"></p>
+<p align="center"><img src="qualitative_page_01.png" alt="qualitative 1" width="49%"></p>
+
+<p align="center"><em><strong>Figure — Qualitative (VOTS):</strong> Examples where <strong>HQ‑SAM‑Gate</strong> refines DMAOT predictions via IoU‑gated selection (default τ≈0.59). The refinement tightens object boundaries, preserves thin/elongated structures, and improves stability under occlusions and fast topology changes. Colors denote per‑object masks; best viewed zoomed.</em></p>
+
+---
 
 ## 📚 References & citation
 Please cite the respective AOT/DeAOT, SAM/SAM‑HQ papers, and this repository.
