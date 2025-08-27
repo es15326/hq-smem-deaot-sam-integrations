@@ -188,7 +188,7 @@ sbatch -J hqsam_gate_vots -p a100_80gb --gres=gpu:4 --cpus-per-task=16 --mem=64G
 ## 🖼️ Qualitative Results (VOTS)
 > Selected frames illustrating DMAOT → HQ‑SAM → IoU‑gated refinement; see captions in the PDF for details.
 
-<p align="center"><img src="qualitative_page_01.png" alt="qualitative 1" width="70%"></p>
+<p align="center"><img src="qualitative_page_01.png" alt="qualitative 1" width="60%"></p>
 
 ## 📚 References & citation
 Please cite the respective AOT/DeAOT, SAM/SAM‑HQ papers, and this repository.
